@@ -5,9 +5,11 @@ body{
     font-family: 'Lobster', cursive;
 font-family: 'Poppins', sans-serif;
 margin: 0px;
-width: 92%;
+width: 91%;
 
-
+}
+main{
+    width: 1614px;
 }
 
 /* for menu-bar */
@@ -63,6 +65,9 @@ color: #3A3A3A;
 }
 
 /* second-section */
+.container{
+    width: 100%;
+}
 .single-item-details{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -90,10 +95,12 @@ color: #3A3A3A;
     padding-left: 28px;
     padding-top: 15px;
     border-radius: 10px;
+    width: 353px;
+    height: 474px;
 }
 .banner img{
-    width: 426px;
-height: 256px;
+    width: 354px;
+height: 249px;
 position: relative;
     right: 15px;
 }
@@ -132,7 +139,7 @@ span{
     padding: 10px 40px;
     border-radius: 10px;
     position: relative;
-    left: 1376px;
+    left: 1321px;
     top: 449px;
     bottom: 16px;
 }
@@ -219,9 +226,9 @@ font-size: 14px;
     }
 } */
 /* mobile deivces */
-@media only screen and (min-width:0px) and (max-width:688px){
+ @media only screen and (min-width:0px) and (max-width:688px){
     .single-item-details{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(3,1fr);
         position: relative;
     right: 179px;
     }
