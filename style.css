@@ -233,14 +233,18 @@ font-size: 14px;
 /* for mobile */
  @media only screen and (min-width:0px) and (max-width:576px){
     .youtube-video{
-        left: 1237px;
+        left: 1013px;
         position: relative;
     top: 1402px;
     }
     .youtube-videos{
-        right: 297px;
+        right: 546px;
 
     }
+ iframe{
+    width:400px;
+    height:300px;
+ }
      .footer-section{
        background-color: violet;
        width: 100%;
@@ -258,6 +262,8 @@ font-size: 14px;
         bottom: 90px;
     }
 }
+
+
 /* for tab */
 @media only screen and (min-width:577px) and (max-width:768px){
     .section-title{
