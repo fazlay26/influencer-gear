@@ -238,17 +238,24 @@ font-size: 14px;
     top: 1402px;
     }
     .youtube-videos{
-        right: 176px;
+        right: 297px;
 
     }
      .footer-section{
        background-color: violet;
-       width: 338%;
+       width: 100%;
        position: absolute;
     top: 4000px;
+    left: 500px;
     } 
     .single-item-details{
         grid-template-columns: repeat(2,1fr);
+    }
+    .section-paragraph{
+        bottom: 50px;
+    }
+    .link-button a {
+        bottom: 90px;
     }
 }
 /* for tab */
@@ -307,4 +314,4 @@ font-size: 14px;
 
 
 
-    
+
