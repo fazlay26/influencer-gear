@@ -27,6 +27,7 @@ article{
 .section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    width: 90%;
 }
 .section-title{
     font-weight: bold;
@@ -67,6 +68,8 @@ color: #3A3A3A;
     grid-template-columns: repeat(3,1fr);
     margin-right: 145px;
     grid-row-gap: 5px;
+    position: relative;
+    right: 178px;
     
 }
 .collection-title{
@@ -80,9 +83,9 @@ color: #3A3A3A;
 .collection-details{
     position: relative;
     top: 440px;
-    left: 180px;
+    left: 259px;
     box-shadow: 2px 5px 25px grey;
-    margin-right: 139px;
+    margin-right: 50px;
     margin-bottom: 50px;
     padding-left: 28px;
     padding-top: 15px;
@@ -129,7 +132,7 @@ span{
     padding: 10px 40px;
     border-radius: 10px;
     position: relative;
-    left: 1599px;
+    left: 1376px;
     top: 449px;
     bottom: 16px;
 }
@@ -146,7 +149,7 @@ span{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     position: relative;
-    right: -46px;
+    right: 55px;
 }
 .youtube-video{
     position: relative;
