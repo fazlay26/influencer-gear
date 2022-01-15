@@ -5,6 +5,7 @@ body{
     font-family: 'Lobster', cursive;
 font-family: 'Poppins', sans-serif;
 margin: 0px;
+padding: 0%;
 width: 100%;
 background-color: wheat;
 
@@ -196,6 +197,36 @@ font-size: 14px;
 .fa-youtube:before {
     content: "\f167";
     color: white;
+}
+
+/* animation */
+
+.camera-pic img:hover{
+    transform: scaleX(1.5)  rotate(20deg);
+    transition: transform 5s;
+}
+/* #menu-1 h2{
+    width:0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 5s;
+} */
+#menu-1 h3{
+    
+    font-size: 40px;
+    width:0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 5s infinite alternate;
+    border-right:3px solid black ;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 16ch;
+    }
 }
 
 /* media queries */
